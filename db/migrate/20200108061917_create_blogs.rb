@@ -3,7 +3,7 @@ class CreateBlogs < ActiveRecord::Migration[5.2]
     create_table :blogs do |t|
       t.string :title
       t.string :category
-      t.text　 :body
+      t.text :body
 
       t.timestamps
     end
